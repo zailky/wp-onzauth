@@ -15,7 +15,7 @@ Or
 * Install via Wordpress.org plugins (Pending Approval)
 
 Or
-* Download the zip file in the `Tags` Tab and upload it manually to your WordPress `Plugins` screen [Tags](https://github.com/zailky/wp-onzauth/tags)
+* Download the zip file in the `Releases` Tab and upload it manually to your WordPress `Plugins` screen [Releases](https://github.com/zailky/wp-onzauth/releases)
 
 ## Development
 Install WordPress and move the plugin to the `wp-content/plugins` directory.
