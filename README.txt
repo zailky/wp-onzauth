@@ -13,6 +13,8 @@ OnzAuth plugin replaces the standard WordPress login form with one that enables 
 == Description ==
 This plugin replaces the standard WordPress login form with one that enables passwordless email magic link and biometric login.
 
+This plugin also supports the WooCommerce login.
+
 Visit [https://tryonzauth.com](https://tryonzauth.com) to sign up for a free account and learn more.
 
 

@@ -5,6 +5,8 @@ Replace WordPress Default Authentication with Passwordless Biometric Authenticat
 * No more Passwords
 * Get started for free
 
+This plugin also supports the WooCommerce login.
+
 
 ## Installation
 
