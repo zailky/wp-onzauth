@@ -1,0 +1,17 @@
+{
+    "name": "zailky/onzauth-wp",
+    "description": "OnzAuth passwordless plugin for Wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "OnzAuth",
+            "email": "support@onzauth.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "firebase/php-jwt": "dev-main",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
