@@ -234,14 +234,14 @@ class OnzAuth_Configurations
         $roles = $wp_roles->roles;
 
         if (!empty($roles)) {
-            $html = '<select name="onzauth_option_name[user_role]" id="user_role">';
+            $options = '';
             foreach ($roles as $id => $role) {
                 $selected = isset($this->onzauth_options['user_role']) ? selected($id, $this->onzauth_options['user_role'], false) : '';
-                $html .= '<option value="' . $id . '" ' . $selected . '>' . $role["name"] . '</option>';
+                $options .= '<option value="' . $id . '" ' . $selected . '>' . $role["name"] . '</option>';
             }
-            $html .= '</select>';
-            $html .= '<p class="description">' . esc_html__('Default role to users registered by OnzAuth.', 'onzauth') . '</p>';
-            echo $html;
+            
+            echo '<select name="onzauth_option_name[user_role]" id="user_role">' . $options . '</select>
+                <p class="description">' . esc_html__('Default role to users registered by OnzAuth.', 'onzauth') . '</p>';
         }
 
     }

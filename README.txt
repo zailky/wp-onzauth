@@ -1,7 +1,7 @@
 === OnzAuth ===
 Tags: passwordless, magiclink, biometric, authentication, security, webauthn
 Requires at least: 5.5.1
-Tested up to: 5.8
+Tested up to: 6.0.2
 Requires PHP: 7.3
 License: GPL-3.0-only
 License URI: https://opensource.org/licenses/GPL-3.0
