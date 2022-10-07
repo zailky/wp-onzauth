@@ -237,7 +237,7 @@ class OnzAuth_Configurations
             $options = '';
             foreach ($roles as $id => $role) {
                 $selected = isset($this->onzauth_options['user_role']) ? selected($id, $this->onzauth_options['user_role'], false) : '';
-                $options .= '<option value="' . $id . '" ' . $selected . '>' . $role["name"] . '</option>';
+                $options .= '<option value="' . esc_attr($id) . '" ' . esc_attr($selected) . '>' . esc_html__($role["name"]) . '</option>';
             }
             
             echo '<select name="onzauth_option_name[user_role]" id="user_role">' . $options . '</select>
