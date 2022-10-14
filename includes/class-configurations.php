@@ -230,6 +230,12 @@ class OnzAuth_Configurations
     public function user_role_callback()
     {
         global $wp_roles;
+        
+        $allowed_html = array(
+            'option' => array(
+                'value' => array(),
+            )
+        );
 
         $roles = $wp_roles->roles;
 
@@ -240,7 +246,7 @@ class OnzAuth_Configurations
                 $options .= '<option value="' . esc_attr($id) . '" ' . esc_attr($selected) . '>' . esc_html__($role["name"]) . '</option>';
             }
             
-            echo '<select name="onzauth_option_name[user_role]" id="user_role">' . $options . '</select>
+            echo '<select name="onzauth_option_name[user_role]" id="user_role">' . wp_kses($options, $allowed_html) . '</select>
                 <p class="description">' . esc_html__('Default role to users registered by OnzAuth.', 'onzauth') . '</p>';
         }
 
