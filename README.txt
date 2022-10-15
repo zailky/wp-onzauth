@@ -5,7 +5,7 @@ Tested up to: 6.0.2
 Requires PHP: 7.3
 License: GPL-3.0-only
 License URI: https://opensource.org/licenses/GPL-3.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Contributors: zailky
 
 OnzAuth plugin replaces the standard WordPress login form with one that enables passwordless email magic link and biometric login.
@@ -21,7 +21,8 @@ Visit [https://tryonzauth.com](https://tryonzauth.com) to sign up for a free acc
 == Installation ==
 This plugin requires a [free or paid](https://tryonzauth.com/pricing) OnzAuth account.
 
-1. 
+1. [Sign up here](https://idp.onzauth.com/signin).
+2. Follow the [installation instructions here](https://zailky.github.io/onz-auth-js/wordpress.html).
 
 == Screenshots ==
 1. Login form

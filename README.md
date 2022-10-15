@@ -14,7 +14,7 @@ This plugin also supports the WooCommerce login.
 * Activate the plugin through the `Plugins` screen in WordPress.
 
 Or
-* Install via Wordpress.org plugins (Pending Approval)
+* Install via Wordpress.org plugins [Directory](https://wordpress.org/plugins/onzauth)
 
 Or
 * Download the zip file in the `Releases` Tab and upload it manually to your WordPress `Plugins` screen [Releases](https://github.com/zailky/wp-onzauth/releases)
