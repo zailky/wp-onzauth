@@ -5,7 +5,7 @@ Tested up to: 6.0.2
 Requires PHP: 7.3
 License: GPL-3.0-only
 License URI: https://opensource.org/licenses/GPL-3.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Contributors: zailky
 
 OnzAuth plugin replaces the standard WordPress login form with one that enables passwordless email magic link and biometric login.
