@@ -234,6 +234,7 @@ class OnzAuth_Configurations
         $allowed_html = array(
             'option' => array(
                 'value' => array(),
+                'selected' => array()
             )
         );
 
