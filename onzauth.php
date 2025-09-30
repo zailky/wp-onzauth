@@ -4,7 +4,7 @@
  * Plugin Name: OnzAuth
  * Plugin URI: https://github.com/zailky/wp-onzauth
  * Description: OnzAuth provides passwordless and biometric login for your WordPress site.
- * Version:     1.0.5
+ * Version:     1.0.6
  * Author:      OnzAuth
  * Author URI:  https://tryonzauth.com/
  * License: GPLv2 or later
@@ -30,7 +30,7 @@ class OnzAuth
      * @since 1.0.0
      * @var string The plugin version.
      */
-    const VERSION = '1.0.5';
+    const VERSION = '1.0.6';
 
     /**
      * Minimum PHP Version
